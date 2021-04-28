@@ -69,7 +69,7 @@ async def validate_and_monitor(ctx, queue_type, url):
                     except:
                         await ctx.send(embed=embed)
                     break
-                await asyncio.sleep((randint(6,8)) * len(users))
+                await asyncio.sleep((randint(12,16)) * len(users))
             del users[user_id]
         else:
             await send_error_embed(ctx, '[' + f"{ctx.message.author.mention}] You can only track one course at a time")
