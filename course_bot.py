@@ -78,7 +78,7 @@ async def validate_and_monitor(ctx, queue_type, url):
 
 @bot.event
 async def on_ready():
-    print(f"{bot.user} has connected to Discord")
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="*help"))
 
 @bot.command (name = 'general')
 async def general(ctx, url):
