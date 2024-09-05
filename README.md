@@ -2,7 +2,7 @@
 ![Screenshot_8](https://github.com/user-attachments/assets/4f28d016-5567-40f2-9330-30da51c60e68)
 
 ## About
-When a student unregisters from a course, a vacant seat opens up, but the vacancy isn't instantly filled by students from the waitlist. Based on my experience, there's often a long grace period (sometimes lasting hours) before the vacancy is filled. During this time, anyone can register directly, bypassing the waitlist. After discovering paid services that exploit this loophole, I found it to be an interesting flaw in the system. This curiosity led me to create a Discord bot to explore the concept further.
+When a student unregisters from a course, a vacant seat opens up, but the vacancy isn't instantly filled by students from the waitlist. Based on my experience, there's often a long grace period (sometimes lasting hours) before the vacancy is filled. During this time, anyone can register directly, bypassing the waitlist. I found the flaw interesting, and after discovering paid services that exploit this loophole, I decided to create a Discord bot to explore it further.
 
 ## Technologies
 * `discord.py` for bot development
